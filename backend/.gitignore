@@ -1,0 +1,7 @@
+# Large ML artifacts (rebuild with: python road_network.py --build)
+models/bengaluru_graph.pkl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo

@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+*.egg-info/
+
+# Large cached files
+backend/models/bengaluru_graph.pkl
+backend/cache/
+
+# Node
+node_modules/
+.next/
+out/
+
+# Environment
+.env
+.env.local
+*.log
+.DS_Store

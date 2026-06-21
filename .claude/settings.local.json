@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ' *)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3)",
+      "Bash(python -m pip install -q scikit-learn joblib numpy)",
+      "Bash(python train.py)",
+      "Bash(python -m pip install -q fastapi uvicorn)",
+      "Bash(./.venv/Scripts/python.exe -c ' *)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(echo \"=== EXIT: $? ===\")",
+      "Bash(npm run *)",
+      "Bash(./.venv/Scripts/python.exe -m uvicorn app:app --port 8000 --log-level warning)",
+      "Bash(ML_API_URL=http://localhost:8000 npx next start -p 3100)",
+      "Bash(curl -s \"http://localhost:8000/api/live-feed\")",
+      "Bash(curl -s \"http://localhost:3100/api/live-feed?window=120\")",
+      "Bash(curl -s \"http://localhost:3100/api/risk-map\")",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\('zones:',len\\(d['baseline_zones']\\),'timeline:',len\\(d['risk_timeline']\\)\\)\")",
+      "Bash(pkill -f \"next start\")",
+      "Bash(echo \"=== TSC EXIT: $? ===\")",
+      "Bash(curl -s -X POST \"http://localhost:8000/api/forecast\" -H \"Content-Type: application/json\" -d '{\"event_cause\":\"public_event\",\"lat\":12.9784,\"lng\":77.6408,\"start_datetime\":\"2026-06-20T17:00:00\",\"expected_crowd\":20000,\"forecast_days\":3}')",
+      "Bash(pkill -f uvicorn)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(open\\('sample_response.json'\\)\\); print\\('TOP KEYS:', list\\(d.keys\\(\\)\\)\\); inc=d['new_incidents'][0] if d.get\\('new_incidents'\\) else {}; print\\('INCIDENT KEYS:', list\\(inc.keys\\(\\)\\)\\)\")",
+      "Bash(curl -s --max-time 3 localhost:8000/)",
+      "Bash(./venv/bin/python -c ' *)",
+      "Bash(curl -s --max-time 30 http://localhost:3000/)",
+      "Bash(curl -s --max-time 30 http://localhost:3000/fleet-api)",
+      "Bash(grep -iE \"\\\\.\\(tsx|jsx\\)$\")",
+      "Bash(gh repo *)",
+      "Bash(git remote *)",
+      "Bash(git fetch *)",
+      "Bash(git merge *)",
+      "Bash(:)",
+      "Bash(git checkout *)",
+      "Bash(git add *)",
+      "Bash(grep -rn *)",
+      "Bash(echo \"EXIT: $?\")"
+    ]
+  }
+}

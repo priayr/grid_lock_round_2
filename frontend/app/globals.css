@@ -1,0 +1,205 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #050506;
+  --accent: #5b8cff;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: #ededf0;
+  scroll-behavior: smooth;
+}
+
+body {
+  /* soft ambient radial lighting — the single atmospheric layer */
+  background-image:
+    radial-gradient(60rem 60rem at 50% -20%, rgba(91, 140, 255, 0.10), transparent 60%),
+    radial-gradient(40rem 40rem at 90% 10%, rgba(91, 140, 255, 0.05), transparent 55%);
+  background-attachment: fixed;
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/[0.03] backdrop-blur-xl border border-white/[0.07];
+  }
+  .glass-strong {
+    @apply bg-white/[0.05] backdrop-blur-2xl border border-white/[0.08];
+  }
+  .card {
+    @apply glass rounded-3xl shadow-glass;
+  }
+  .btn-accent {
+    @apply inline-flex items-center justify-center rounded-full bg-accent px-6 py-3
+           text-sm font-medium text-white transition-all duration-300
+           hover:bg-accent-soft hover:shadow-glow hover:-translate-y-0.5;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center rounded-full border border-white/10
+           bg-white/[0.02] px-6 py-3 text-sm font-medium text-white/80
+           transition-all duration-300 hover:bg-white/[0.06] hover:text-white;
+  }
+  .hairline {
+    @apply border-white/[0.06];
+  }
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-medium uppercase tracking-[0.2em] text-accent-soft;
+  }
+  .text-gradient {
+    @apply bg-gradient-to-b from-white to-white/40 bg-clip-text text-transparent;
+  }
+}
+
+/* =================================================================== */
+/* LANDING PAGE ONLY  (lp- prefix — never used by the console)         */
+/* =================================================================== */
+
+/* Section index label, e.g. "01 — Engines" */
+.lp-index {
+  @apply inline-flex items-center gap-3 text-xs font-medium uppercase tracking-[0.22em] text-white/40;
+}
+.lp-index::before {
+  content: "";
+  @apply h-px w-8 bg-white/20;
+}
+
+/* Hairline divider that fades at both ends */
+.lp-rule {
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.1), transparent);
+}
+
+/* Feature tile — restrained, with a quiet top-light on hover */
+.lp-tile {
+  @apply relative overflow-hidden rounded-3xl border border-white/[0.07] bg-white/[0.02];
+  transition: border-color 0.5s, background-color 0.5s, transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.lp-tile:hover {
+  @apply -translate-y-1 border-white/[0.12] bg-white/[0.04];
+}
+.lp-tile::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(140deg, rgba(91, 140, 255, 0.4), transparent 40%);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.5s;
+  pointer-events: none;
+}
+.lp-tile:hover::after {
+  opacity: 1;
+}
+
+/* Fine film grain to kill banding on the dark gradients */
+.lp-grain::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Scroll-reveal — paired with the Reveal component */
+.lp-reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1), transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+.lp-reveal.is-in {
+  opacity: 1;
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .lp-reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* faint blueprint grid — used behind the hero for depth */
+.grid-overlay {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 54px 54px;
+  -webkit-mask-image: radial-gradient(58% 50% at 50% 38%, #000, transparent 75%);
+  mask-image: radial-gradient(58% 50% at 50% 38%, #000, transparent 75%);
+}
+
+/* slow drift for ambient route lines in the product preview */
+@keyframes dash-flow {
+  to { stroke-dashoffset: -240; }
+}
+.dash-flow { animation: dash-flow 6s linear infinite; }
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.marquee-track { animation: marquee 28s linear infinite; }
+
+/* Custom thin scrollbar */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.08); border-radius: 8px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.16); }
+
+/* Leaflet dark tuning */
+.leaflet-container { background: #0a0a0c !important; font-family: inherit; }
+.leaflet-control-attribution {
+  background: rgba(0,0,0,0.4) !important;
+  color: rgba(255,255,255,0.3) !important;
+  backdrop-filter: blur(8px);
+}
+.leaflet-control-attribution a { color: rgba(255,255,255,0.45) !important; }
+.leaflet-bar a {
+  background: rgba(20,20,24,0.9) !important;
+  color: #fff !important;
+  border-color: rgba(255,255,255,0.08) !important;
+}
+
+/* range slider */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 4px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.12);
+  outline: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px; height: 18px;
+  border-radius: 50%;
+  background: var(--accent);
+  cursor: pointer;
+  box-shadow: 0 0 0 4px rgba(91,140,255,0.18), 0 0 20px rgba(91,140,255,0.5);
+  transition: transform 0.15s ease;
+}
+input[type="range"]::-webkit-slider-thumb:hover { transform: scale(1.15); }
+input[type="range"]::-moz-range-thumb {
+  width: 18px; height: 18px; border: none; border-radius: 50%;
+  background: var(--accent); cursor: pointer;
+  box-shadow: 0 0 0 4px rgba(91,140,255,0.18);
+}
+
+/* range slider sitting on a light card (TimelineSlider over the map) */
+.slider-on-light { background: rgba(0, 0, 0, 0.12); }

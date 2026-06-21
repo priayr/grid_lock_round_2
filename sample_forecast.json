@@ -1,0 +1,2335 @@
+{
+  "endpoint": "/api/forecast",
+  "request_echo": {
+    "event_cause": "public_event",
+    "lat": 12.9784,
+    "lng": 77.6408,
+    "start_datetime": "2026-06-20T17:00:00",
+    "expected_crowd": 20000,
+    "forecast_days": 3
+  },
+  "summary": {
+    "predicted_priority": "High",
+    "road_closure_probability": 0.82,
+    "peak_risk_score": 90,
+    "peak_window": "2026-06-20T18:00:00",
+    "model_confidence": 0.79,
+    "based_on_events": 467,
+    "headline": "High-impact public event. Heavy congestion 4-9 PM event day; residual next morning."
+  },
+  "impact_zones": [
+    {
+      "zone_id": "z1",
+      "name": "Indiranagar 100ft Rd",
+      "lat": 12.9719,
+      "lng": 77.6412,
+      "risk_score": 98,
+      "color": "#d7191c",
+      "radius_m": 740
+    },
+    {
+      "zone_id": "z2",
+      "name": "CMH Road Junction",
+      "lat": 12.9756,
+      "lng": 77.6402,
+      "risk_score": 90,
+      "color": "#d7191c",
+      "radius_m": 700
+    },
+    {
+      "zone_id": "z3",
+      "name": "Old Madras Rd / Halasuru",
+      "lat": 12.9802,
+      "lng": 77.6298,
+      "risk_score": 86,
+      "color": "#d7191c",
+      "radius_m": 680
+    },
+    {
+      "zone_id": "z4",
+      "name": "Domlur Flyover",
+      "lat": 12.9609,
+      "lng": 77.6387,
+      "risk_score": 84,
+      "color": "#d7191c",
+      "radius_m": 670
+    }
+  ],
+  "timeline": [
+    {
+      "datetime": "2026-06-20T00:00:00",
+      "overall_risk": 16,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 17,
+          "color": "#1a9641",
+          "radius_m": 335
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 12,
+          "color": "#1a9641",
+          "radius_m": 310
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 22,
+          "color": "#a6d96a",
+          "radius_m": 360
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 14,
+          "color": "#1a9641",
+          "radius_m": 320
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-20T01:00:00",
+      "overall_risk": 16,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 17,
+          "color": "#1a9641",
+          "radius_m": 335
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 12,
+          "color": "#1a9641",
+          "radius_m": 310
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 22,
+          "color": "#a6d96a",
+          "radius_m": 360
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 14,
+          "color": "#1a9641",
+          "radius_m": 320
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-20T02:00:00",
+      "overall_risk": 17,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 18,
+          "color": "#1a9641",
+          "radius_m": 340
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 13,
+          "color": "#1a9641",
+          "radius_m": 315
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 23,
+          "color": "#a6d96a",
+          "radius_m": 365
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 15,
+          "color": "#1a9641",
+          "radius_m": 325
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-20T03:00:00",
+      "overall_risk": 20,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 21,
+          "color": "#a6d96a",
+          "radius_m": 355
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 16,
+          "color": "#1a9641",
+          "radius_m": 330
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 26,
+          "color": "#a6d96a",
+          "radius_m": 380
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 18,
+          "color": "#1a9641",
+          "radius_m": 340
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-20T04:00:00",
+      "overall_risk": 23,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 24,
+          "color": "#a6d96a",
+          "radius_m": 370
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 19,
+          "color": "#1a9641",
+          "radius_m": 345
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 29,
+          "color": "#a6d96a",
+          "radius_m": 395
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 21,
+          "color": "#a6d96a",
+          "radius_m": 355
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-20T05:00:00",
+      "overall_risk": 26,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 27,
+          "color": "#a6d96a",
+          "radius_m": 385
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 22,
+          "color": "#a6d96a",
+          "radius_m": 360
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 32,
+          "color": "#a6d96a",
+          "radius_m": 410
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 24,
+          "color": "#a6d96a",
+          "radius_m": 370
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-20T06:00:00",
+      "overall_risk": 37,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 38,
+          "color": "#fdae61",
+          "radius_m": 440
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 33,
+          "color": "#a6d96a",
+          "radius_m": 415
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 43,
+          "color": "#fdae61",
+          "radius_m": 465
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 35,
+          "color": "#fdae61",
+          "radius_m": 425
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-20T07:00:00",
+      "overall_risk": 40,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 41,
+          "color": "#fdae61",
+          "radius_m": 455
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 36,
+          "color": "#fdae61",
+          "radius_m": 430
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 46,
+          "color": "#fdae61",
+          "radius_m": 480
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 38,
+          "color": "#fdae61",
+          "radius_m": 440
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-20T08:00:00",
+      "overall_risk": 43,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 44,
+          "color": "#fdae61",
+          "radius_m": 470
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 39,
+          "color": "#fdae61",
+          "radius_m": 445
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 49,
+          "color": "#fdae61",
+          "radius_m": 495
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 41,
+          "color": "#fdae61",
+          "radius_m": 455
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-20T09:00:00",
+      "overall_risk": 46,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 47,
+          "color": "#fdae61",
+          "radius_m": 485
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 42,
+          "color": "#fdae61",
+          "radius_m": 460
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 52,
+          "color": "#fdae61",
+          "radius_m": 510
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 44,
+          "color": "#fdae61",
+          "radius_m": 470
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-20T10:00:00",
+      "overall_risk": 43,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 44,
+          "color": "#fdae61",
+          "radius_m": 470
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 39,
+          "color": "#fdae61",
+          "radius_m": 445
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 49,
+          "color": "#fdae61",
+          "radius_m": 495
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 41,
+          "color": "#fdae61",
+          "radius_m": 455
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-20T11:00:00",
+      "overall_risk": 42,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 43,
+          "color": "#fdae61",
+          "radius_m": 465
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 38,
+          "color": "#fdae61",
+          "radius_m": 440
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 40,
+          "color": "#fdae61",
+          "radius_m": 450
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-20T12:00:00",
+      "overall_risk": 42,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 43,
+          "color": "#fdae61",
+          "radius_m": 465
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 38,
+          "color": "#fdae61",
+          "radius_m": 440
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 40,
+          "color": "#fdae61",
+          "radius_m": 450
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-20T13:00:00",
+      "overall_risk": 50,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 53,
+          "color": "#fdae61",
+          "radius_m": 515
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 46,
+          "color": "#fdae61",
+          "radius_m": 480
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 54,
+          "color": "#fdae61",
+          "radius_m": 520
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 47,
+          "color": "#fdae61",
+          "radius_m": 485
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-20T14:00:00",
+      "overall_risk": 57,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 62,
+          "color": "#fc8d59",
+          "radius_m": 560
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 54,
+          "color": "#fdae61",
+          "radius_m": 520
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 59,
+          "color": "#fc8d59",
+          "radius_m": 545
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 53,
+          "color": "#fdae61",
+          "radius_m": 515
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-20T15:00:00",
+      "overall_risk": 64,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 71,
+          "color": "#fc8d59",
+          "radius_m": 605
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 62,
+          "color": "#fc8d59",
+          "radius_m": 560
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 65,
+          "color": "#fc8d59",
+          "radius_m": 575
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 60,
+          "color": "#fc8d59",
+          "radius_m": 550
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-20T16:00:00",
+      "overall_risk": 71,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 80,
+          "color": "#d7191c",
+          "radius_m": 650
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 69,
+          "color": "#fc8d59",
+          "radius_m": 595
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 70,
+          "color": "#fc8d59",
+          "radius_m": 600
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 66,
+          "color": "#fc8d59",
+          "radius_m": 580
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-20T17:00:00",
+      "overall_risk": 80,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 91,
+          "color": "#d7191c",
+          "radius_m": 705
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 79,
+          "color": "#d7191c",
+          "radius_m": 645
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 78,
+          "color": "#d7191c",
+          "radius_m": 640
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 74,
+          "color": "#fc8d59",
+          "radius_m": 620
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-20T18:00:00",
+      "overall_risk": 90,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 98,
+          "color": "#d7191c",
+          "radius_m": 740
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 90,
+          "color": "#d7191c",
+          "radius_m": 700
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 86,
+          "color": "#d7191c",
+          "radius_m": 680
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 84,
+          "color": "#d7191c",
+          "radius_m": 670
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-20T19:00:00",
+      "overall_risk": 86,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 97,
+          "color": "#d7191c",
+          "radius_m": 735
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 85,
+          "color": "#d7191c",
+          "radius_m": 675
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 84,
+          "color": "#d7191c",
+          "radius_m": 670
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 80,
+          "color": "#d7191c",
+          "radius_m": 650
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-20T20:00:00",
+      "overall_risk": 76,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 85,
+          "color": "#d7191c",
+          "radius_m": 675
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 74,
+          "color": "#fc8d59",
+          "radius_m": 620
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 75,
+          "color": "#d7191c",
+          "radius_m": 625
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 71,
+          "color": "#fc8d59",
+          "radius_m": 605
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-20T21:00:00",
+      "overall_risk": 66,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 73,
+          "color": "#fc8d59",
+          "radius_m": 615
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 64,
+          "color": "#fc8d59",
+          "radius_m": 570
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 67,
+          "color": "#fc8d59",
+          "radius_m": 585
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 62,
+          "color": "#fc8d59",
+          "radius_m": 560
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-20T22:00:00",
+      "overall_risk": 56,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 61,
+          "color": "#fc8d59",
+          "radius_m": 555
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 53,
+          "color": "#fdae61",
+          "radius_m": 515
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 58,
+          "color": "#fc8d59",
+          "radius_m": 540
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 52,
+          "color": "#fdae61",
+          "radius_m": 510
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-20T23:00:00",
+      "overall_risk": 38,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 41,
+          "color": "#fdae61",
+          "radius_m": 455
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 34,
+          "color": "#a6d96a",
+          "radius_m": 420
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 42,
+          "color": "#fdae61",
+          "radius_m": 460
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 35,
+          "color": "#fdae61",
+          "radius_m": 425
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-21T00:00:00",
+      "overall_risk": 16,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 17,
+          "color": "#1a9641",
+          "radius_m": 335
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 12,
+          "color": "#1a9641",
+          "radius_m": 310
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 22,
+          "color": "#a6d96a",
+          "radius_m": 360
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 14,
+          "color": "#1a9641",
+          "radius_m": 320
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-21T01:00:00",
+      "overall_risk": 16,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 17,
+          "color": "#1a9641",
+          "radius_m": 335
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 12,
+          "color": "#1a9641",
+          "radius_m": 310
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 22,
+          "color": "#a6d96a",
+          "radius_m": 360
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 14,
+          "color": "#1a9641",
+          "radius_m": 320
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-21T02:00:00",
+      "overall_risk": 17,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 18,
+          "color": "#1a9641",
+          "radius_m": 340
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 13,
+          "color": "#1a9641",
+          "radius_m": 315
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 23,
+          "color": "#a6d96a",
+          "radius_m": 365
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 15,
+          "color": "#1a9641",
+          "radius_m": 325
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-21T03:00:00",
+      "overall_risk": 20,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 21,
+          "color": "#a6d96a",
+          "radius_m": 355
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 16,
+          "color": "#1a9641",
+          "radius_m": 330
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 26,
+          "color": "#a6d96a",
+          "radius_m": 380
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 18,
+          "color": "#1a9641",
+          "radius_m": 340
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-21T04:00:00",
+      "overall_risk": 23,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 24,
+          "color": "#a6d96a",
+          "radius_m": 370
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 19,
+          "color": "#1a9641",
+          "radius_m": 345
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 29,
+          "color": "#a6d96a",
+          "radius_m": 395
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 21,
+          "color": "#a6d96a",
+          "radius_m": 355
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-21T05:00:00",
+      "overall_risk": 26,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 27,
+          "color": "#a6d96a",
+          "radius_m": 385
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 22,
+          "color": "#a6d96a",
+          "radius_m": 360
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 32,
+          "color": "#a6d96a",
+          "radius_m": 410
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 24,
+          "color": "#a6d96a",
+          "radius_m": 370
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-21T06:00:00",
+      "overall_risk": 37,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 38,
+          "color": "#fdae61",
+          "radius_m": 440
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 33,
+          "color": "#a6d96a",
+          "radius_m": 415
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 43,
+          "color": "#fdae61",
+          "radius_m": 465
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 35,
+          "color": "#fdae61",
+          "radius_m": 425
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-21T07:00:00",
+      "overall_risk": 51,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 55,
+          "color": "#fc8d59",
+          "radius_m": 525
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 54,
+          "color": "#fdae61",
+          "radius_m": 520
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-21T08:00:00",
+      "overall_risk": 56,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 60,
+          "color": "#fc8d59",
+          "radius_m": 550
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 53,
+          "color": "#fdae61",
+          "radius_m": 515
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 59,
+          "color": "#fc8d59",
+          "radius_m": 545
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 52,
+          "color": "#fdae61",
+          "radius_m": 510
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-21T09:00:00",
+      "overall_risk": 60,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 65,
+          "color": "#fc8d59",
+          "radius_m": 575
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 57,
+          "color": "#fc8d59",
+          "radius_m": 535
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 63,
+          "color": "#fc8d59",
+          "radius_m": 565
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 57,
+          "color": "#fc8d59",
+          "radius_m": 535
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-21T10:00:00",
+      "overall_risk": 56,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 60,
+          "color": "#fc8d59",
+          "radius_m": 550
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 53,
+          "color": "#fdae61",
+          "radius_m": 515
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 59,
+          "color": "#fc8d59",
+          "radius_m": 545
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 52,
+          "color": "#fdae61",
+          "radius_m": 510
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-21T11:00:00",
+      "overall_risk": 53,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 57,
+          "color": "#fc8d59",
+          "radius_m": 535
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 50,
+          "color": "#fdae61",
+          "radius_m": 500
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 56,
+          "color": "#fc8d59",
+          "radius_m": 530
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 50,
+          "color": "#fdae61",
+          "radius_m": 500
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-21T12:00:00",
+      "overall_risk": 52,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 55,
+          "color": "#fc8d59",
+          "radius_m": 525
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 55,
+          "color": "#fc8d59",
+          "radius_m": 525
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-21T13:00:00",
+      "overall_risk": 42,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 43,
+          "color": "#fdae61",
+          "radius_m": 465
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 38,
+          "color": "#fdae61",
+          "radius_m": 440
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 40,
+          "color": "#fdae61",
+          "radius_m": 450
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-21T14:00:00",
+      "overall_risk": 42,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 43,
+          "color": "#fdae61",
+          "radius_m": 465
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 38,
+          "color": "#fdae61",
+          "radius_m": 440
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 40,
+          "color": "#fdae61",
+          "radius_m": 450
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-21T15:00:00",
+      "overall_risk": 42,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 43,
+          "color": "#fdae61",
+          "radius_m": 465
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 38,
+          "color": "#fdae61",
+          "radius_m": 440
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 40,
+          "color": "#fdae61",
+          "radius_m": 450
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-21T16:00:00",
+      "overall_risk": 42,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 43,
+          "color": "#fdae61",
+          "radius_m": 465
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 38,
+          "color": "#fdae61",
+          "radius_m": 440
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 40,
+          "color": "#fdae61",
+          "radius_m": 450
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-21T17:00:00",
+      "overall_risk": 44,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 45,
+          "color": "#fdae61",
+          "radius_m": 475
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 40,
+          "color": "#fdae61",
+          "radius_m": 450
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 50,
+          "color": "#fdae61",
+          "radius_m": 500
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 42,
+          "color": "#fdae61",
+          "radius_m": 460
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-21T18:00:00",
+      "overall_risk": 47,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 43,
+          "color": "#fdae61",
+          "radius_m": 465
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 53,
+          "color": "#fdae61",
+          "radius_m": 515
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 45,
+          "color": "#fdae61",
+          "radius_m": 475
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-21T19:00:00",
+      "overall_risk": 50,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 51,
+          "color": "#fdae61",
+          "radius_m": 505
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 46,
+          "color": "#fdae61",
+          "radius_m": 480
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 56,
+          "color": "#fc8d59",
+          "radius_m": 530
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-21T20:00:00",
+      "overall_risk": 47,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 43,
+          "color": "#fdae61",
+          "radius_m": 465
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 53,
+          "color": "#fdae61",
+          "radius_m": 515
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 45,
+          "color": "#fdae61",
+          "radius_m": 475
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-21T21:00:00",
+      "overall_risk": 44,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 45,
+          "color": "#fdae61",
+          "radius_m": 475
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 40,
+          "color": "#fdae61",
+          "radius_m": 450
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 50,
+          "color": "#fdae61",
+          "radius_m": 500
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 42,
+          "color": "#fdae61",
+          "radius_m": 460
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-21T22:00:00",
+      "overall_risk": 41,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 42,
+          "color": "#fdae61",
+          "radius_m": 460
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 37,
+          "color": "#fdae61",
+          "radius_m": 435
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 47,
+          "color": "#fdae61",
+          "radius_m": 485
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 39,
+          "color": "#fdae61",
+          "radius_m": 445
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-21T23:00:00",
+      "overall_risk": 30,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 31,
+          "color": "#a6d96a",
+          "radius_m": 405
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 26,
+          "color": "#a6d96a",
+          "radius_m": 380
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 36,
+          "color": "#fdae61",
+          "radius_m": 430
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 28,
+          "color": "#a6d96a",
+          "radius_m": 390
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-22T00:00:00",
+      "overall_risk": 16,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 17,
+          "color": "#1a9641",
+          "radius_m": 335
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 12,
+          "color": "#1a9641",
+          "radius_m": 310
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 22,
+          "color": "#a6d96a",
+          "radius_m": 360
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 14,
+          "color": "#1a9641",
+          "radius_m": 320
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-22T01:00:00",
+      "overall_risk": 16,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 17,
+          "color": "#1a9641",
+          "radius_m": 335
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 12,
+          "color": "#1a9641",
+          "radius_m": 310
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 22,
+          "color": "#a6d96a",
+          "radius_m": 360
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 14,
+          "color": "#1a9641",
+          "radius_m": 320
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-22T02:00:00",
+      "overall_risk": 17,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 18,
+          "color": "#1a9641",
+          "radius_m": 340
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 13,
+          "color": "#1a9641",
+          "radius_m": 315
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 23,
+          "color": "#a6d96a",
+          "radius_m": 365
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 15,
+          "color": "#1a9641",
+          "radius_m": 325
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-22T03:00:00",
+      "overall_risk": 20,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 21,
+          "color": "#a6d96a",
+          "radius_m": 355
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 16,
+          "color": "#1a9641",
+          "radius_m": 330
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 26,
+          "color": "#a6d96a",
+          "radius_m": 380
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 18,
+          "color": "#1a9641",
+          "radius_m": 340
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-22T04:00:00",
+      "overall_risk": 23,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 24,
+          "color": "#a6d96a",
+          "radius_m": 370
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 19,
+          "color": "#1a9641",
+          "radius_m": 345
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 29,
+          "color": "#a6d96a",
+          "radius_m": 395
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 21,
+          "color": "#a6d96a",
+          "radius_m": 355
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-22T05:00:00",
+      "overall_risk": 26,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 27,
+          "color": "#a6d96a",
+          "radius_m": 385
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 22,
+          "color": "#a6d96a",
+          "radius_m": 360
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 32,
+          "color": "#a6d96a",
+          "radius_m": 410
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 24,
+          "color": "#a6d96a",
+          "radius_m": 370
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-22T06:00:00",
+      "overall_risk": 37,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 38,
+          "color": "#fdae61",
+          "radius_m": 440
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 33,
+          "color": "#a6d96a",
+          "radius_m": 415
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 43,
+          "color": "#fdae61",
+          "radius_m": 465
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 35,
+          "color": "#fdae61",
+          "radius_m": 425
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-22T07:00:00",
+      "overall_risk": 40,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 41,
+          "color": "#fdae61",
+          "radius_m": 455
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 36,
+          "color": "#fdae61",
+          "radius_m": 430
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 46,
+          "color": "#fdae61",
+          "radius_m": 480
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 38,
+          "color": "#fdae61",
+          "radius_m": 440
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-22T08:00:00",
+      "overall_risk": 48,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 50,
+          "color": "#fdae61",
+          "radius_m": 500
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 45,
+          "color": "#fdae61",
+          "radius_m": 475
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 53,
+          "color": "#fdae61",
+          "radius_m": 515
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 46,
+          "color": "#fdae61",
+          "radius_m": 480
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-22T09:00:00",
+      "overall_risk": 53,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 55,
+          "color": "#fc8d59",
+          "radius_m": 525
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 49,
+          "color": "#fdae61",
+          "radius_m": 495
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 57,
+          "color": "#fc8d59",
+          "radius_m": 535
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 50,
+          "color": "#fdae61",
+          "radius_m": 500
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-22T10:00:00",
+      "overall_risk": 48,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 50,
+          "color": "#fdae61",
+          "radius_m": 500
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 45,
+          "color": "#fdae61",
+          "radius_m": 475
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 53,
+          "color": "#fdae61",
+          "radius_m": 515
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 46,
+          "color": "#fdae61",
+          "radius_m": 480
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-22T11:00:00",
+      "overall_risk": 46,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 42,
+          "color": "#fdae61",
+          "radius_m": 460
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 51,
+          "color": "#fdae61",
+          "radius_m": 505
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 44,
+          "color": "#fdae61",
+          "radius_m": 470
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-22T12:00:00",
+      "overall_risk": 42,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 43,
+          "color": "#fdae61",
+          "radius_m": 465
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 38,
+          "color": "#fdae61",
+          "radius_m": 440
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 40,
+          "color": "#fdae61",
+          "radius_m": 450
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-22T13:00:00",
+      "overall_risk": 42,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 43,
+          "color": "#fdae61",
+          "radius_m": 465
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 38,
+          "color": "#fdae61",
+          "radius_m": 440
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 40,
+          "color": "#fdae61",
+          "radius_m": 450
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-22T14:00:00",
+      "overall_risk": 42,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 43,
+          "color": "#fdae61",
+          "radius_m": 465
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 38,
+          "color": "#fdae61",
+          "radius_m": 440
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 40,
+          "color": "#fdae61",
+          "radius_m": 450
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-22T15:00:00",
+      "overall_risk": 42,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 43,
+          "color": "#fdae61",
+          "radius_m": 465
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 38,
+          "color": "#fdae61",
+          "radius_m": 440
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 40,
+          "color": "#fdae61",
+          "radius_m": 450
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-22T16:00:00",
+      "overall_risk": 42,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 43,
+          "color": "#fdae61",
+          "radius_m": 465
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 38,
+          "color": "#fdae61",
+          "radius_m": 440
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 40,
+          "color": "#fdae61",
+          "radius_m": 450
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-22T17:00:00",
+      "overall_risk": 44,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 45,
+          "color": "#fdae61",
+          "radius_m": 475
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 40,
+          "color": "#fdae61",
+          "radius_m": 450
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 50,
+          "color": "#fdae61",
+          "radius_m": 500
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 42,
+          "color": "#fdae61",
+          "radius_m": 460
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-22T18:00:00",
+      "overall_risk": 47,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 43,
+          "color": "#fdae61",
+          "radius_m": 465
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 53,
+          "color": "#fdae61",
+          "radius_m": 515
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 45,
+          "color": "#fdae61",
+          "radius_m": 475
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-22T19:00:00",
+      "overall_risk": 50,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 51,
+          "color": "#fdae61",
+          "radius_m": 505
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 46,
+          "color": "#fdae61",
+          "radius_m": 480
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 56,
+          "color": "#fc8d59",
+          "radius_m": 530
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-22T20:00:00",
+      "overall_risk": 47,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 43,
+          "color": "#fdae61",
+          "radius_m": 465
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 53,
+          "color": "#fdae61",
+          "radius_m": 515
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 45,
+          "color": "#fdae61",
+          "radius_m": 475
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-22T21:00:00",
+      "overall_risk": 44,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 45,
+          "color": "#fdae61",
+          "radius_m": 475
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 40,
+          "color": "#fdae61",
+          "radius_m": 450
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 50,
+          "color": "#fdae61",
+          "radius_m": 500
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 42,
+          "color": "#fdae61",
+          "radius_m": 460
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-22T22:00:00",
+      "overall_risk": 41,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 42,
+          "color": "#fdae61",
+          "radius_m": 460
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 37,
+          "color": "#fdae61",
+          "radius_m": 435
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 47,
+          "color": "#fdae61",
+          "radius_m": 485
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 39,
+          "color": "#fdae61",
+          "radius_m": 445
+        }
+      ]
+    },
+    {
+      "datetime": "2026-06-22T23:00:00",
+      "overall_risk": 30,
+      "zones": [
+        {
+          "zone_id": "z1",
+          "risk_score": 31,
+          "color": "#a6d96a",
+          "radius_m": 405
+        },
+        {
+          "zone_id": "z2",
+          "risk_score": 26,
+          "color": "#a6d96a",
+          "radius_m": 380
+        },
+        {
+          "zone_id": "z3",
+          "risk_score": 36,
+          "color": "#fdae61",
+          "radius_m": 430
+        },
+        {
+          "zone_id": "z4",
+          "risk_score": 28,
+          "color": "#a6d96a",
+          "radius_m": 390
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "zone_id": "z1",
+      "name": "Indiranagar 100ft Rd",
+      "officers": 8,
+      "barricades": [
+        {
+          "lat": 12.9721,
+          "lng": 77.6415
+        },
+        {
+          "lat": 12.971,
+          "lng": 77.6408
+        }
+      ],
+      "diversion": {
+        "blocked_segment": "100ft Rd @ event venue",
+        "routes": [
+          {
+            "rank": 1,
+            "algorithm": "dijkstra/yen-k1",
+            "distance_m": 2100,
+            "eta_min": 6.8,
+            "summary": "via CMH Road",
+            "polyline": [
+              [
+                12.9719,
+                77.6412
+              ],
+              [
+                12.974,
+                77.644
+              ],
+              [
+                12.9756,
+                77.6402
+              ]
+            ]
+          },
+          {
+            "rank": 2,
+            "algorithm": "yen-k2",
+            "distance_m": 2700,
+            "eta_min": 8.5,
+            "summary": "via Cambridge Layout",
+            "polyline": [
+              [
+                12.9719,
+                77.6412
+              ],
+              [
+                12.969,
+                77.645
+              ],
+              [
+                12.9756,
+                77.6402
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "zone_id": "z2",
+      "name": "CMH Road Junction",
+      "officers": 5,
+      "barricades": [
+        {
+          "lat": 12.9758,
+          "lng": 77.64
+        }
+      ],
+      "diversion": null
+    },
+    {
+      "zone_id": "z4",
+      "name": "Domlur Flyover",
+      "officers": 4,
+      "barricades": [
+        {
+          "lat": 12.9611,
+          "lng": 77.6389
+        }
+      ],
+      "diversion": null
+    }
+  ],
+  "legend": [
+    {
+      "label": "Severe",
+      "min": 75,
+      "color": "#d7191c"
+    },
+    {
+      "label": "High",
+      "min": 55,
+      "color": "#fc8d59"
+    },
+    {
+      "label": "Moderate",
+      "min": 35,
+      "color": "#fdae61"
+    },
+    {
+      "label": "Low",
+      "min": 20,
+      "color": "#a6d96a"
+    },
+    {
+      "label": "Minimal",
+      "min": 0,
+      "color": "#1a9641"
+    }
+  ]
+}

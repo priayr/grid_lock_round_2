@@ -1,0 +1,1260 @@
+{
+  "endpoint": "/api/risk-map",
+  "requested_datetime": "2024-03-08T09:00:00",
+  "day_of_week": "Friday",
+  "summary": {
+    "overall_risk": 57,
+    "highest_zone": {
+      "name": "ORR East",
+      "risk_score": 67
+    },
+    "headline": "Morning peak risk on ORR East & Tumkur Rd. Pre-position patrols on top corridors.",
+    "based_on_events": 7706
+  },
+  "baseline_zones": [
+    {
+      "zone_id": "c_tumkur",
+      "name": "Tumkur Road",
+      "lat": 13.0289,
+      "lng": 77.5378,
+      "risk_score": 62,
+      "color": "#fc8d59",
+      "radius_m": 560
+    },
+    {
+      "zone_id": "c_mysore",
+      "name": "Mysore Road",
+      "lat": 12.9456,
+      "lng": 77.522,
+      "risk_score": 56,
+      "color": "#fc8d59",
+      "radius_m": 530
+    },
+    {
+      "zone_id": "c_orr_e",
+      "name": "ORR East",
+      "lat": 13.0009,
+      "lng": 77.682,
+      "risk_score": 67,
+      "color": "#fc8d59",
+      "radius_m": 585
+    },
+    {
+      "zone_id": "c_hosur",
+      "name": "Hosur Road",
+      "lat": 12.9081,
+      "lng": 77.6476,
+      "risk_score": 60,
+      "color": "#fc8d59",
+      "radius_m": 550
+    },
+    {
+      "zone_id": "c_bellary",
+      "name": "Bellary Road",
+      "lat": 13.021,
+      "lng": 77.59,
+      "risk_score": 52,
+      "color": "#fdae61",
+      "radius_m": 510
+    },
+    {
+      "zone_id": "c_oldmadras",
+      "name": "Old Madras Road",
+      "lat": 12.9916,
+      "lng": 77.668,
+      "risk_score": 55,
+      "color": "#fc8d59",
+      "radius_m": 525
+    },
+    {
+      "zone_id": "c_magadi",
+      "name": "Magadi Road",
+      "lat": 12.975,
+      "lng": 77.54,
+      "risk_score": 50,
+      "color": "#fdae61",
+      "radius_m": 500
+    }
+  ],
+  "risk_timeline": [
+    {
+      "datetime": "2024-03-08T00:00:00",
+      "overall_risk": 25,
+      "zones": [
+        {
+          "zone_id": "c_tumkur",
+          "risk_score": 30,
+          "color": "#a6d96a",
+          "radius_m": 400
+        },
+        {
+          "zone_id": "c_mysore",
+          "risk_score": 24,
+          "color": "#a6d96a",
+          "radius_m": 370
+        },
+        {
+          "zone_id": "c_orr_e",
+          "risk_score": 35,
+          "color": "#fdae61",
+          "radius_m": 425
+        },
+        {
+          "zone_id": "c_hosur",
+          "risk_score": 28,
+          "color": "#a6d96a",
+          "radius_m": 390
+        },
+        {
+          "zone_id": "c_bellary",
+          "risk_score": 20,
+          "color": "#a6d96a",
+          "radius_m": 350
+        },
+        {
+          "zone_id": "c_oldmadras",
+          "risk_score": 23,
+          "color": "#a6d96a",
+          "radius_m": 365
+        },
+        {
+          "zone_id": "c_magadi",
+          "risk_score": 18,
+          "color": "#1a9641",
+          "radius_m": 340
+        }
+      ]
+    },
+    {
+      "datetime": "2024-03-08T01:00:00",
+      "overall_risk": 25,
+      "zones": [
+        {
+          "zone_id": "c_tumkur",
+          "risk_score": 30,
+          "color": "#a6d96a",
+          "radius_m": 400
+        },
+        {
+          "zone_id": "c_mysore",
+          "risk_score": 24,
+          "color": "#a6d96a",
+          "radius_m": 370
+        },
+        {
+          "zone_id": "c_orr_e",
+          "risk_score": 35,
+          "color": "#fdae61",
+          "radius_m": 425
+        },
+        {
+          "zone_id": "c_hosur",
+          "risk_score": 28,
+          "color": "#a6d96a",
+          "radius_m": 390
+        },
+        {
+          "zone_id": "c_bellary",
+          "risk_score": 20,
+          "color": "#a6d96a",
+          "radius_m": 350
+        },
+        {
+          "zone_id": "c_oldmadras",
+          "risk_score": 23,
+          "color": "#a6d96a",
+          "radius_m": 365
+        },
+        {
+          "zone_id": "c_magadi",
+          "risk_score": 18,
+          "color": "#1a9641",
+          "radius_m": 340
+        }
+      ]
+    },
+    {
+      "datetime": "2024-03-08T02:00:00",
+      "overall_risk": 26,
+      "zones": [
+        {
+          "zone_id": "c_tumkur",
+          "risk_score": 31,
+          "color": "#a6d96a",
+          "radius_m": 405
+        },
+        {
+          "zone_id": "c_mysore",
+          "risk_score": 25,
+          "color": "#a6d96a",
+          "radius_m": 375
+        },
+        {
+          "zone_id": "c_orr_e",
+          "risk_score": 36,
+          "color": "#fdae61",
+          "radius_m": 430
+        },
+        {
+          "zone_id": "c_hosur",
+          "risk_score": 29,
+          "color": "#a6d96a",
+          "radius_m": 395
+        },
+        {
+          "zone_id": "c_bellary",
+          "risk_score": 21,
+          "color": "#a6d96a",
+          "radius_m": 355
+        },
+        {
+          "zone_id": "c_oldmadras",
+          "risk_score": 24,
+          "color": "#a6d96a",
+          "radius_m": 370
+        },
+        {
+          "zone_id": "c_magadi",
+          "risk_score": 19,
+          "color": "#1a9641",
+          "radius_m": 345
+        }
+      ]
+    },
+    {
+      "datetime": "2024-03-08T03:00:00",
+      "overall_risk": 29,
+      "zones": [
+        {
+          "zone_id": "c_tumkur",
+          "risk_score": 34,
+          "color": "#a6d96a",
+          "radius_m": 420
+        },
+        {
+          "zone_id": "c_mysore",
+          "risk_score": 28,
+          "color": "#a6d96a",
+          "radius_m": 390
+        },
+        {
+          "zone_id": "c_orr_e",
+          "risk_score": 39,
+          "color": "#fdae61",
+          "radius_m": 445
+        },
+        {
+          "zone_id": "c_hosur",
+          "risk_score": 32,
+          "color": "#a6d96a",
+          "radius_m": 410
+        },
+        {
+          "zone_id": "c_bellary",
+          "risk_score": 24,
+          "color": "#a6d96a",
+          "radius_m": 370
+        },
+        {
+          "zone_id": "c_oldmadras",
+          "risk_score": 27,
+          "color": "#a6d96a",
+          "radius_m": 385
+        },
+        {
+          "zone_id": "c_magadi",
+          "risk_score": 22,
+          "color": "#a6d96a",
+          "radius_m": 360
+        }
+      ]
+    },
+    {
+      "datetime": "2024-03-08T04:00:00",
+      "overall_risk": 32,
+      "zones": [
+        {
+          "zone_id": "c_tumkur",
+          "risk_score": 37,
+          "color": "#fdae61",
+          "radius_m": 435
+        },
+        {
+          "zone_id": "c_mysore",
+          "risk_score": 31,
+          "color": "#a6d96a",
+          "radius_m": 405
+        },
+        {
+          "zone_id": "c_orr_e",
+          "risk_score": 42,
+          "color": "#fdae61",
+          "radius_m": 460
+        },
+        {
+          "zone_id": "c_hosur",
+          "risk_score": 35,
+          "color": "#fdae61",
+          "radius_m": 425
+        },
+        {
+          "zone_id": "c_bellary",
+          "risk_score": 27,
+          "color": "#a6d96a",
+          "radius_m": 385
+        },
+        {
+          "zone_id": "c_oldmadras",
+          "risk_score": 30,
+          "color": "#a6d96a",
+          "radius_m": 400
+        },
+        {
+          "zone_id": "c_magadi",
+          "risk_score": 25,
+          "color": "#a6d96a",
+          "radius_m": 375
+        }
+      ]
+    },
+    {
+      "datetime": "2024-03-08T05:00:00",
+      "overall_risk": 35,
+      "zones": [
+        {
+          "zone_id": "c_tumkur",
+          "risk_score": 40,
+          "color": "#fdae61",
+          "radius_m": 450
+        },
+        {
+          "zone_id": "c_mysore",
+          "risk_score": 34,
+          "color": "#a6d96a",
+          "radius_m": 420
+        },
+        {
+          "zone_id": "c_orr_e",
+          "risk_score": 45,
+          "color": "#fdae61",
+          "radius_m": 475
+        },
+        {
+          "zone_id": "c_hosur",
+          "risk_score": 38,
+          "color": "#fdae61",
+          "radius_m": 440
+        },
+        {
+          "zone_id": "c_bellary",
+          "risk_score": 30,
+          "color": "#a6d96a",
+          "radius_m": 400
+        },
+        {
+          "zone_id": "c_oldmadras",
+          "risk_score": 33,
+          "color": "#a6d96a",
+          "radius_m": 415
+        },
+        {
+          "zone_id": "c_magadi",
+          "risk_score": 28,
+          "color": "#a6d96a",
+          "radius_m": 390
+        }
+      ]
+    },
+    {
+      "datetime": "2024-03-08T06:00:00",
+      "overall_risk": 48,
+      "zones": [
+        {
+          "zone_id": "c_tumkur",
+          "risk_score": 53,
+          "color": "#fdae61",
+          "radius_m": 515
+        },
+        {
+          "zone_id": "c_mysore",
+          "risk_score": 47,
+          "color": "#fdae61",
+          "radius_m": 485
+        },
+        {
+          "zone_id": "c_orr_e",
+          "risk_score": 58,
+          "color": "#fc8d59",
+          "radius_m": 540
+        },
+        {
+          "zone_id": "c_hosur",
+          "risk_score": 51,
+          "color": "#fdae61",
+          "radius_m": 505
+        },
+        {
+          "zone_id": "c_bellary",
+          "risk_score": 43,
+          "color": "#fdae61",
+          "radius_m": 465
+        },
+        {
+          "zone_id": "c_oldmadras",
+          "risk_score": 46,
+          "color": "#fdae61",
+          "radius_m": 480
+        },
+        {
+          "zone_id": "c_magadi",
+          "risk_score": 41,
+          "color": "#fdae61",
+          "radius_m": 455
+        }
+      ]
+    },
+    {
+      "datetime": "2024-03-08T07:00:00",
+      "overall_risk": 51,
+      "zones": [
+        {
+          "zone_id": "c_tumkur",
+          "risk_score": 56,
+          "color": "#fc8d59",
+          "radius_m": 530
+        },
+        {
+          "zone_id": "c_mysore",
+          "risk_score": 50,
+          "color": "#fdae61",
+          "radius_m": 500
+        },
+        {
+          "zone_id": "c_orr_e",
+          "risk_score": 61,
+          "color": "#fc8d59",
+          "radius_m": 555
+        },
+        {
+          "zone_id": "c_hosur",
+          "risk_score": 54,
+          "color": "#fdae61",
+          "radius_m": 520
+        },
+        {
+          "zone_id": "c_bellary",
+          "risk_score": 46,
+          "color": "#fdae61",
+          "radius_m": 480
+        },
+        {
+          "zone_id": "c_oldmadras",
+          "risk_score": 49,
+          "color": "#fdae61",
+          "radius_m": 495
+        },
+        {
+          "zone_id": "c_magadi",
+          "risk_score": 44,
+          "color": "#fdae61",
+          "radius_m": 470
+        }
+      ]
+    },
+    {
+      "datetime": "2024-03-08T08:00:00",
+      "overall_risk": 54,
+      "zones": [
+        {
+          "zone_id": "c_tumkur",
+          "risk_score": 59,
+          "color": "#fc8d59",
+          "radius_m": 545
+        },
+        {
+          "zone_id": "c_mysore",
+          "risk_score": 53,
+          "color": "#fdae61",
+          "radius_m": 515
+        },
+        {
+          "zone_id": "c_orr_e",
+          "risk_score": 64,
+          "color": "#fc8d59",
+          "radius_m": 570
+        },
+        {
+          "zone_id": "c_hosur",
+          "risk_score": 57,
+          "color": "#fc8d59",
+          "radius_m": 535
+        },
+        {
+          "zone_id": "c_bellary",
+          "risk_score": 49,
+          "color": "#fdae61",
+          "radius_m": 495
+        },
+        {
+          "zone_id": "c_oldmadras",
+          "risk_score": 52,
+          "color": "#fdae61",
+          "radius_m": 510
+        },
+        {
+          "zone_id": "c_magadi",
+          "risk_score": 47,
+          "color": "#fdae61",
+          "radius_m": 485
+        }
+      ]
+    },
+    {
+      "datetime": "2024-03-08T09:00:00",
+      "overall_risk": 57,
+      "zones": [
+        {
+          "zone_id": "c_tumkur",
+          "risk_score": 62,
+          "color": "#fc8d59",
+          "radius_m": 560
+        },
+        {
+          "zone_id": "c_mysore",
+          "risk_score": 56,
+          "color": "#fc8d59",
+          "radius_m": 530
+        },
+        {
+          "zone_id": "c_orr_e",
+          "risk_score": 67,
+          "color": "#fc8d59",
+          "radius_m": 585
+        },
+        {
+          "zone_id": "c_hosur",
+          "risk_score": 60,
+          "color": "#fc8d59",
+          "radius_m": 550
+        },
+        {
+          "zone_id": "c_bellary",
+          "risk_score": 52,
+          "color": "#fdae61",
+          "radius_m": 510
+        },
+        {
+          "zone_id": "c_oldmadras",
+          "risk_score": 55,
+          "color": "#fc8d59",
+          "radius_m": 525
+        },
+        {
+          "zone_id": "c_magadi",
+          "risk_score": 50,
+          "color": "#fdae61",
+          "radius_m": 500
+        }
+      ]
+    },
+    {
+      "datetime": "2024-03-08T10:00:00",
+      "overall_risk": 54,
+      "zones": [
+        {
+          "zone_id": "c_tumkur",
+          "risk_score": 59,
+          "color": "#fc8d59",
+          "radius_m": 545
+        },
+        {
+          "zone_id": "c_mysore",
+          "risk_score": 53,
+          "color": "#fdae61",
+          "radius_m": 515
+        },
+        {
+          "zone_id": "c_orr_e",
+          "risk_score": 64,
+          "color": "#fc8d59",
+          "radius_m": 570
+        },
+        {
+          "zone_id": "c_hosur",
+          "risk_score": 57,
+          "color": "#fc8d59",
+          "radius_m": 535
+        },
+        {
+          "zone_id": "c_bellary",
+          "risk_score": 49,
+          "color": "#fdae61",
+          "radius_m": 495
+        },
+        {
+          "zone_id": "c_oldmadras",
+          "risk_score": 52,
+          "color": "#fdae61",
+          "radius_m": 510
+        },
+        {
+          "zone_id": "c_magadi",
+          "risk_score": 47,
+          "color": "#fdae61",
+          "radius_m": 485
+        }
+      ]
+    },
+    {
+      "datetime": "2024-03-08T11:00:00",
+      "overall_risk": 53,
+      "zones": [
+        {
+          "zone_id": "c_tumkur",
+          "risk_score": 58,
+          "color": "#fc8d59",
+          "radius_m": 540
+        },
+        {
+          "zone_id": "c_mysore",
+          "risk_score": 52,
+          "color": "#fdae61",
+          "radius_m": 510
+        },
+        {
+          "zone_id": "c_orr_e",
+          "risk_score": 63,
+          "color": "#fc8d59",
+          "radius_m": 565
+        },
+        {
+          "zone_id": "c_hosur",
+          "risk_score": 56,
+          "color": "#fc8d59",
+          "radius_m": 530
+        },
+        {
+          "zone_id": "c_bellary",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        },
+        {
+          "zone_id": "c_oldmadras",
+          "risk_score": 51,
+          "color": "#fdae61",
+          "radius_m": 505
+        },
+        {
+          "zone_id": "c_magadi",
+          "risk_score": 46,
+          "color": "#fdae61",
+          "radius_m": 480
+        }
+      ]
+    },
+    {
+      "datetime": "2024-03-08T12:00:00",
+      "overall_risk": 53,
+      "zones": [
+        {
+          "zone_id": "c_tumkur",
+          "risk_score": 58,
+          "color": "#fc8d59",
+          "radius_m": 540
+        },
+        {
+          "zone_id": "c_mysore",
+          "risk_score": 52,
+          "color": "#fdae61",
+          "radius_m": 510
+        },
+        {
+          "zone_id": "c_orr_e",
+          "risk_score": 63,
+          "color": "#fc8d59",
+          "radius_m": 565
+        },
+        {
+          "zone_id": "c_hosur",
+          "risk_score": 56,
+          "color": "#fc8d59",
+          "radius_m": 530
+        },
+        {
+          "zone_id": "c_bellary",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        },
+        {
+          "zone_id": "c_oldmadras",
+          "risk_score": 51,
+          "color": "#fdae61",
+          "radius_m": 505
+        },
+        {
+          "zone_id": "c_magadi",
+          "risk_score": 46,
+          "color": "#fdae61",
+          "radius_m": 480
+        }
+      ]
+    },
+    {
+      "datetime": "2024-03-08T13:00:00",
+      "overall_risk": 53,
+      "zones": [
+        {
+          "zone_id": "c_tumkur",
+          "risk_score": 58,
+          "color": "#fc8d59",
+          "radius_m": 540
+        },
+        {
+          "zone_id": "c_mysore",
+          "risk_score": 52,
+          "color": "#fdae61",
+          "radius_m": 510
+        },
+        {
+          "zone_id": "c_orr_e",
+          "risk_score": 63,
+          "color": "#fc8d59",
+          "radius_m": 565
+        },
+        {
+          "zone_id": "c_hosur",
+          "risk_score": 56,
+          "color": "#fc8d59",
+          "radius_m": 530
+        },
+        {
+          "zone_id": "c_bellary",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        },
+        {
+          "zone_id": "c_oldmadras",
+          "risk_score": 51,
+          "color": "#fdae61",
+          "radius_m": 505
+        },
+        {
+          "zone_id": "c_magadi",
+          "risk_score": 46,
+          "color": "#fdae61",
+          "radius_m": 480
+        }
+      ]
+    },
+    {
+      "datetime": "2024-03-08T14:00:00",
+      "overall_risk": 53,
+      "zones": [
+        {
+          "zone_id": "c_tumkur",
+          "risk_score": 58,
+          "color": "#fc8d59",
+          "radius_m": 540
+        },
+        {
+          "zone_id": "c_mysore",
+          "risk_score": 52,
+          "color": "#fdae61",
+          "radius_m": 510
+        },
+        {
+          "zone_id": "c_orr_e",
+          "risk_score": 63,
+          "color": "#fc8d59",
+          "radius_m": 565
+        },
+        {
+          "zone_id": "c_hosur",
+          "risk_score": 56,
+          "color": "#fc8d59",
+          "radius_m": 530
+        },
+        {
+          "zone_id": "c_bellary",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        },
+        {
+          "zone_id": "c_oldmadras",
+          "risk_score": 51,
+          "color": "#fdae61",
+          "radius_m": 505
+        },
+        {
+          "zone_id": "c_magadi",
+          "risk_score": 46,
+          "color": "#fdae61",
+          "radius_m": 480
+        }
+      ]
+    },
+    {
+      "datetime": "2024-03-08T15:00:00",
+      "overall_risk": 53,
+      "zones": [
+        {
+          "zone_id": "c_tumkur",
+          "risk_score": 58,
+          "color": "#fc8d59",
+          "radius_m": 540
+        },
+        {
+          "zone_id": "c_mysore",
+          "risk_score": 52,
+          "color": "#fdae61",
+          "radius_m": 510
+        },
+        {
+          "zone_id": "c_orr_e",
+          "risk_score": 63,
+          "color": "#fc8d59",
+          "radius_m": 565
+        },
+        {
+          "zone_id": "c_hosur",
+          "risk_score": 56,
+          "color": "#fc8d59",
+          "radius_m": 530
+        },
+        {
+          "zone_id": "c_bellary",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        },
+        {
+          "zone_id": "c_oldmadras",
+          "risk_score": 51,
+          "color": "#fdae61",
+          "radius_m": 505
+        },
+        {
+          "zone_id": "c_magadi",
+          "risk_score": 46,
+          "color": "#fdae61",
+          "radius_m": 480
+        }
+      ]
+    },
+    {
+      "datetime": "2024-03-08T16:00:00",
+      "overall_risk": 53,
+      "zones": [
+        {
+          "zone_id": "c_tumkur",
+          "risk_score": 58,
+          "color": "#fc8d59",
+          "radius_m": 540
+        },
+        {
+          "zone_id": "c_mysore",
+          "risk_score": 52,
+          "color": "#fdae61",
+          "radius_m": 510
+        },
+        {
+          "zone_id": "c_orr_e",
+          "risk_score": 63,
+          "color": "#fc8d59",
+          "radius_m": 565
+        },
+        {
+          "zone_id": "c_hosur",
+          "risk_score": 56,
+          "color": "#fc8d59",
+          "radius_m": 530
+        },
+        {
+          "zone_id": "c_bellary",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        },
+        {
+          "zone_id": "c_oldmadras",
+          "risk_score": 51,
+          "color": "#fdae61",
+          "radius_m": 505
+        },
+        {
+          "zone_id": "c_magadi",
+          "risk_score": 46,
+          "color": "#fdae61",
+          "radius_m": 480
+        }
+      ]
+    },
+    {
+      "datetime": "2024-03-08T17:00:00",
+      "overall_risk": 55,
+      "zones": [
+        {
+          "zone_id": "c_tumkur",
+          "risk_score": 60,
+          "color": "#fc8d59",
+          "radius_m": 550
+        },
+        {
+          "zone_id": "c_mysore",
+          "risk_score": 54,
+          "color": "#fdae61",
+          "radius_m": 520
+        },
+        {
+          "zone_id": "c_orr_e",
+          "risk_score": 65,
+          "color": "#fc8d59",
+          "radius_m": 575
+        },
+        {
+          "zone_id": "c_hosur",
+          "risk_score": 58,
+          "color": "#fc8d59",
+          "radius_m": 540
+        },
+        {
+          "zone_id": "c_bellary",
+          "risk_score": 50,
+          "color": "#fdae61",
+          "radius_m": 500
+        },
+        {
+          "zone_id": "c_oldmadras",
+          "risk_score": 53,
+          "color": "#fdae61",
+          "radius_m": 515
+        },
+        {
+          "zone_id": "c_magadi",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        }
+      ]
+    },
+    {
+      "datetime": "2024-03-08T18:00:00",
+      "overall_risk": 58,
+      "zones": [
+        {
+          "zone_id": "c_tumkur",
+          "risk_score": 63,
+          "color": "#fc8d59",
+          "radius_m": 565
+        },
+        {
+          "zone_id": "c_mysore",
+          "risk_score": 57,
+          "color": "#fc8d59",
+          "radius_m": 535
+        },
+        {
+          "zone_id": "c_orr_e",
+          "risk_score": 68,
+          "color": "#fc8d59",
+          "radius_m": 590
+        },
+        {
+          "zone_id": "c_hosur",
+          "risk_score": 61,
+          "color": "#fc8d59",
+          "radius_m": 555
+        },
+        {
+          "zone_id": "c_bellary",
+          "risk_score": 53,
+          "color": "#fdae61",
+          "radius_m": 515
+        },
+        {
+          "zone_id": "c_oldmadras",
+          "risk_score": 56,
+          "color": "#fc8d59",
+          "radius_m": 530
+        },
+        {
+          "zone_id": "c_magadi",
+          "risk_score": 51,
+          "color": "#fdae61",
+          "radius_m": 505
+        }
+      ]
+    },
+    {
+      "datetime": "2024-03-08T19:00:00",
+      "overall_risk": 61,
+      "zones": [
+        {
+          "zone_id": "c_tumkur",
+          "risk_score": 66,
+          "color": "#fc8d59",
+          "radius_m": 580
+        },
+        {
+          "zone_id": "c_mysore",
+          "risk_score": 60,
+          "color": "#fc8d59",
+          "radius_m": 550
+        },
+        {
+          "zone_id": "c_orr_e",
+          "risk_score": 71,
+          "color": "#fc8d59",
+          "radius_m": 605
+        },
+        {
+          "zone_id": "c_hosur",
+          "risk_score": 64,
+          "color": "#fc8d59",
+          "radius_m": 570
+        },
+        {
+          "zone_id": "c_bellary",
+          "risk_score": 56,
+          "color": "#fc8d59",
+          "radius_m": 530
+        },
+        {
+          "zone_id": "c_oldmadras",
+          "risk_score": 59,
+          "color": "#fc8d59",
+          "radius_m": 545
+        },
+        {
+          "zone_id": "c_magadi",
+          "risk_score": 54,
+          "color": "#fdae61",
+          "radius_m": 520
+        }
+      ]
+    },
+    {
+      "datetime": "2024-03-08T20:00:00",
+      "overall_risk": 58,
+      "zones": [
+        {
+          "zone_id": "c_tumkur",
+          "risk_score": 63,
+          "color": "#fc8d59",
+          "radius_m": 565
+        },
+        {
+          "zone_id": "c_mysore",
+          "risk_score": 57,
+          "color": "#fc8d59",
+          "radius_m": 535
+        },
+        {
+          "zone_id": "c_orr_e",
+          "risk_score": 68,
+          "color": "#fc8d59",
+          "radius_m": 590
+        },
+        {
+          "zone_id": "c_hosur",
+          "risk_score": 61,
+          "color": "#fc8d59",
+          "radius_m": 555
+        },
+        {
+          "zone_id": "c_bellary",
+          "risk_score": 53,
+          "color": "#fdae61",
+          "radius_m": 515
+        },
+        {
+          "zone_id": "c_oldmadras",
+          "risk_score": 56,
+          "color": "#fc8d59",
+          "radius_m": 530
+        },
+        {
+          "zone_id": "c_magadi",
+          "risk_score": 51,
+          "color": "#fdae61",
+          "radius_m": 505
+        }
+      ]
+    },
+    {
+      "datetime": "2024-03-08T21:00:00",
+      "overall_risk": 55,
+      "zones": [
+        {
+          "zone_id": "c_tumkur",
+          "risk_score": 60,
+          "color": "#fc8d59",
+          "radius_m": 550
+        },
+        {
+          "zone_id": "c_mysore",
+          "risk_score": 54,
+          "color": "#fdae61",
+          "radius_m": 520
+        },
+        {
+          "zone_id": "c_orr_e",
+          "risk_score": 65,
+          "color": "#fc8d59",
+          "radius_m": 575
+        },
+        {
+          "zone_id": "c_hosur",
+          "risk_score": 58,
+          "color": "#fc8d59",
+          "radius_m": 540
+        },
+        {
+          "zone_id": "c_bellary",
+          "risk_score": 50,
+          "color": "#fdae61",
+          "radius_m": 500
+        },
+        {
+          "zone_id": "c_oldmadras",
+          "risk_score": 53,
+          "color": "#fdae61",
+          "radius_m": 515
+        },
+        {
+          "zone_id": "c_magadi",
+          "risk_score": 48,
+          "color": "#fdae61",
+          "radius_m": 490
+        }
+      ]
+    },
+    {
+      "datetime": "2024-03-08T22:00:00",
+      "overall_risk": 52,
+      "zones": [
+        {
+          "zone_id": "c_tumkur",
+          "risk_score": 57,
+          "color": "#fc8d59",
+          "radius_m": 535
+        },
+        {
+          "zone_id": "c_mysore",
+          "risk_score": 51,
+          "color": "#fdae61",
+          "radius_m": 505
+        },
+        {
+          "zone_id": "c_orr_e",
+          "risk_score": 62,
+          "color": "#fc8d59",
+          "radius_m": 560
+        },
+        {
+          "zone_id": "c_hosur",
+          "risk_score": 55,
+          "color": "#fc8d59",
+          "radius_m": 525
+        },
+        {
+          "zone_id": "c_bellary",
+          "risk_score": 47,
+          "color": "#fdae61",
+          "radius_m": 485
+        },
+        {
+          "zone_id": "c_oldmadras",
+          "risk_score": 50,
+          "color": "#fdae61",
+          "radius_m": 500
+        },
+        {
+          "zone_id": "c_magadi",
+          "risk_score": 45,
+          "color": "#fdae61",
+          "radius_m": 475
+        }
+      ]
+    },
+    {
+      "datetime": "2024-03-08T23:00:00",
+      "overall_risk": 39,
+      "zones": [
+        {
+          "zone_id": "c_tumkur",
+          "risk_score": 44,
+          "color": "#fdae61",
+          "radius_m": 470
+        },
+        {
+          "zone_id": "c_mysore",
+          "risk_score": 38,
+          "color": "#fdae61",
+          "radius_m": 440
+        },
+        {
+          "zone_id": "c_orr_e",
+          "risk_score": 49,
+          "color": "#fdae61",
+          "radius_m": 495
+        },
+        {
+          "zone_id": "c_hosur",
+          "risk_score": 42,
+          "color": "#fdae61",
+          "radius_m": 460
+        },
+        {
+          "zone_id": "c_bellary",
+          "risk_score": 34,
+          "color": "#a6d96a",
+          "radius_m": 420
+        },
+        {
+          "zone_id": "c_oldmadras",
+          "risk_score": 37,
+          "color": "#fdae61",
+          "radius_m": 435
+        },
+        {
+          "zone_id": "c_magadi",
+          "risk_score": 32,
+          "color": "#a6d96a",
+          "radius_m": 410
+        }
+      ]
+    }
+  ],
+  "legend": [
+    {
+      "label": "Severe",
+      "min": 75,
+      "color": "#d7191c"
+    },
+    {
+      "label": "High",
+      "min": 55,
+      "color": "#fc8d59"
+    },
+    {
+      "label": "Moderate",
+      "min": 35,
+      "color": "#fdae61"
+    },
+    {
+      "label": "Low",
+      "min": 20,
+      "color": "#a6d96a"
+    },
+    {
+      "label": "Minimal",
+      "min": 0,
+      "color": "#1a9641"
+    }
+  ]
+}
