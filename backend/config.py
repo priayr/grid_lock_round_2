@@ -4,7 +4,8 @@ from pathlib import Path
 # ---- Paths ----
 BASE_DIR = Path(__file__).resolve().parent
 PROJECT_DIR = BASE_DIR.parent
-DATA_CSV = PROJECT_DIR / "Astram event data_anonymized - Astram event data_anonymizedb40ac87.csv"
+_local_csv = BASE_DIR / "Astram event data_anonymized - Astram event data_anonymizedb40ac87.csv"
+DATA_CSV = _local_csv if _local_csv.exists() else (PROJECT_DIR / "Astram event data_anonymized - Astram event data_anonymizedb40ac87.csv")
 MODELS_DIR = BASE_DIR / "models"
 MODELS_DIR.mkdir(exist_ok=True)
 
