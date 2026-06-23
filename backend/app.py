@@ -1,9 +1,11 @@
+from __future__ import annotations
 """FastAPI gateway — the 3 endpoints in the JSON contract.
 
 Run:  uvicorn app:app --reload --port 8000
 Docs: http://localhost:8000/docs
 """
 import json
+import os
 
 import pandas as pd
 from fastapi import FastAPI, Header, HTTPException
@@ -20,10 +22,14 @@ from fleet_quarantine import generate_quarantine
 from green_wave import compute_green_wave
 
 app = FastAPI(title="Gridlock — Event-Driven Congestion API")
+_origins_env = os.getenv("ALLOWED_ORIGINS", "http://localhost:3000")
+ALLOWED_ORIGINS = [o.strip() for o in _origins_env.split(",") if o.strip()]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
-    allow_methods=["*"], allow_headers=["*"],
+    allow_origins=ALLOWED_ORIGINS,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 
